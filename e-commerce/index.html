@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>e-commerce</title>
+</head>
+
+<body>
+  <div class="cursor-glow"></div>
+    <header>
+<div class="search">
+    <input type="text" id="searchInput" placeholder="Search products...">
+    <!-- <input type="text" placeholder="Search"> -->
+  </div>
+        <nav>
+            <a href="#" class="active"> Home</a>
+            <a href="#1">Ethnic  Wear </a>
+            <a href="#2">Marriage outfits </a>
+            <a href="#3"> Occasion</a>
+            <a href="#4">Custom order</a>
+            <a id="themeBtn">Dark mode 🌙 </a> 
+        </nav>
+    </header>
+    <div id="loader">
+    <h1>House of Viraaj</h1>
+    <p>Inspired by Heritage. Defined by Style.</p>
+</div>
+    <section class="hero hidden">
+          <video src="media/background.mp4" autoplay muted loop ></video>
+        <div class="hero-content">
+            <h1> <span>The House of Viraaj</span></h1>
+            <H1>Inspired by Heritage. Defined by Style
+            </H1>
+            </div>
+    </section>
+    <section id="1" class="section hidden">
+    <h2>Elegance in Every Thread.</h2>
+    <h3>Crafted for <em>Royalty</em></h3>
+    <div class="grid">
+      <div class="card" >
+      <img class="slider-img"
+         data-images='[
+         "media/kurtas/1.jpeg",
+         "media/kurtas/2.jpeg",
+         "media/kurtas/3.jpeg"
+         ]'
+         src="media/kurtas/1.jpeg">
+  <div class="card-body">
+  <h3>Kurta & Pajamas</h3>
+  </div>
+</div>
+      <div class="card" >
+      <img class="slider-img"
+         data-images='[
+         "media/embroid kurtas/2.jpeg",
+         "media/embroid kurtas/3.jpeg",
+         "media/embroid kurtas/1.jpeg"
+         ]'
+         src="media/embroid kurtas/1.jpeg">
+  <div class="card-body">
+    <h3>Embroidered Kurtas</h3>
+  </div>
+</div>
+      <div class="card" >
+      <img class="slider-img"
+         data-images='[
+         "media/cotton kurtas/1.jpeg",
+         "media/cotton kurtas/2.jpeg",
+         "media/cotton kurtas/3.jpeg"
+         ]'
+         src="media/cotton kurtas/1.jpeg">
+  <div class="card-body">
+    <h3>Cotton Kurtas</h3>
+  </div>
+</div>
+      <div class="card" >
+      <img class="slider-img"
+         data-images='[
+         "media/silk kurta/1.jpeg",
+         "media/silk kurta/2.jpeg",
+         "media/silk kurta/3.jpeg"
+         ]'
+         src="media/silk kurta/1.jpeg">
+  <div class="card-body">
+    <h3>Silk Kurtas</h3>
+  </div>
+</div>
+    </div>
+    </section>
+
+    <section id="2" class="section-2 hidden">
+     <h2>A Legacy of Wedding Elegance</h2>
+     <h3>Celebrate <em>Love</em> in Style</h3>
+         <div class="grid">
+      <div class="card" >
+      <img class="slider-img"
+         data-images='[
+         "media/wedding sherwani/1.jpeg",
+         "media/wedding sherwani/2.jpeg",
+         "media/wedding sherwani/3.jpeg"
+         ]'
+         src="media/wedding sherwani/1.jpeg">
+  <div class="card-body">
+  <h3>Wedding Sherwanis</h3>
+  </div>
+      </div>
+            <div class="card" >
+      <img class="slider-img"
+         data-images='[
+         "media/embroided sherwanis/1.jpeg",
+         "media/embroided sherwanis/2.jpeg",
+         "media/embroided sherwanis/3.jpeg"
+         ]'
+         src="media/embroided sherwanis/1.jpeg">
+  <div class="card-body">
+    <h3>Embroidered Sherwanis</h3>
+  </div>
+</div>
+            <div class="card" >
+      <img class="slider-img"
+         data-images='[
+         "media/achkan sherwani/1.jpeg",
+         "media/achkan sherwani/2.jpeg",
+         "media/achkan sherwani/3.jpeg"
+         ]'
+         src="media/achkan sherwani/1.jpeg">
+  <div class="card-body">
+    <h3>Achkan Sherwanis</h3>
+  </div>
+</div>
+            <div class="card" >
+      <img class="slider-img"
+         data-images='[
+         "media/velvet sherwani/1.jpeg",
+         "media/velvet sherwani/2.jpg",
+         "media/velvet sherwani/3.jpg"
+         ]'
+         src="media/velvet sherwani/1.jpeg">
+  <div class="card-body">
+    <h3>Velvet Sherwanis</h3>
+  </div>
+</div>
+         </div>
+    </section>
+
+    <section id="3" class="section-3 hidden">
+      <h2>The Art of Ethnic Elegance.</h2>
+      <h3>Wear the <em>Occasion</em></h3>
+      <div class="grid">
+                    <div class="card" >
+      <img class="slider-img"
+         data-images='[
+         "media/printed nehru jackets/1.jpeg",
+         "media/printed nehru jackets/2.jpg",
+         "media/printed nehru jackets/3.jpg"
+         ]'
+         src="media/printed nehru jackets/1.jpeg">
+  <div class="card-body">
+    <h3>Printed Nehru Jackets</h3>
+  </div>
+</div>
+                    <div class="card" >
+      <img class="slider-img"
+         data-images='[
+         "media/jacket style kurta/1.jpeg",
+         "media/jacket style kurta/2.jpg",
+         "media/jacket style kurta/3.jpg"
+         ]'
+         src="media/jacket style kurta/1.jpeg">
+  <div class="card-body">
+    <h3>Jacket Style Kurtas</h3>
+  </div>
+</div>
+                    <div class="card" >
+     <img class="slider-img"
+         data-images='[
+         "media/fushion sets/1.jpeg",
+         "media/fushion sets/2.jpg",
+         "media/fushion sets/3.jpg"
+         ]'
+         src="media/fushion sets/1.jpeg">
+  <div class="card-body">
+    <h3>Fusion Sets</h3>
+  </div>
+</div>
+                    <div class="card" >
+     <img class="slider-img"
+         data-images='[
+         "media/asymmetric kurta/1.jpeg",
+         "media/asymmetric kurta/2.jpg",
+         "media/asymmetric kurta/3.jpg"
+         ]'
+         src="media/asymmetric kurta/1.jpeg">
+  <div class="card-body">
+    <h3>Asymmetric Kurtas</h3>
+  </div>
+</div>
+      </div>
+    </section>
+<section class="reviews-section hidden">
+
+  <h2>Moments Shared by Gentlemen</h2>
+<h3>Voices of Viraaj</h3>
+  <div class="reviews-container">
+
+    <!-- REVIEW 1 -->
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p>"Exceptional craftsmanship and a perfect fit for my wedding day."
+"House of Viraaj made me feel truly royal."</p>
+      <h4>Rahul </h4>
+      <span>Hyderabad</span>
+    </div>
+
+    <!-- REVIEW 2 -->
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p>""Elegant designs with unmatched attention to detail.""</p>
+      <h4>Pavan kalyan </h4>
+      <span>HYderabad</span>
+    </div>
+
+    <!-- REVIEW 3 -->
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p>""Received countless compliments throughout the ceremony."
+"Premium quality that exceeded all expectations.""</p>
+      <h4>Vikram Singh</h4>
+      <span>Mumbai</span>
+    </div>
+
+  </div>
+
+<hr>
+
+<script src="script.js"></script>
+
+<footer id="4" class="footer">
+
+  <div class="footer-container">
+
+    <!-- BRAND -->
+    <div class="footer-brand">
+    <div class="footer-img">
+      <img src="media/brand.png">
+      <h2>House of Viraaj</h2>
+      <p>Inspired by Heritage. Defined by Style</p>
+    </div>
+    </div>
+
+    <!-- LINKS -->
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#">FAQs</a>
+    </div>
+
+    <!-- POLICIES -->
+    <div class="footer-col">
+      <h4>Policies</h4>
+      <a href="#">Privacy</a>
+      <a href="#">Shipping</a>
+    </div>
+        <div class="footer-col">
+      <h4>Contact</h4>
+      <p>+91 7075577613</p>
+        </div>
+                        <div class="social-icons">
+                <a href="https://www.linkedin.com/in/venkat-pavan-kalyan-kunchala-11a5a7319/"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/pavan100305"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/lostinshinen/"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+
+            </body>
+            </html>
